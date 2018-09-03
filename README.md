@@ -1,37 +1,114 @@
-## Welcome to GitHub Pages
+## INTRO
+PIRATE is the best of Zcash combined with the best of Monero. It's a forced Shielded-transactions (z-transactions) only blockchain, meant for completely anonymous transactions. PIRATE is mined into a transparent address, but can only go into a shielded address from there.
+PIRATE is an independent blockchain built using Komodo Platform technology which is privacy transactions only blockchain. PIRATE is feature complete for what it does, there is no need for any more PIRATE core improvements.
 
-You can use the [editor on GitHub](https://github.com/PirateNetwork/pirate_black_website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+- Komodo Assetchain
+- Independent blockchain
+- Privacy/Shielded/z tx only chain. No Transparent transactions possible on PIRATE chain.
+- Block time aprox 60 seconds.
+- Block halving every 77777 blocks.
+   - aprox every 54.01180556 days
+- Block reward of 1 satoshi will be reached in about 5.179214231 years.
+- Total supply of around 40 million. Exactly to be 39,821,823.99884100 by year 2023
+- CryptoConditions contracts not possible on this chain, as it's z tx only chain.
+- Can't notarize without special exemptions.
+- Equihash PoW algo blockchain.
+- Alternatively can use Verushash PoW, but has to be used for a 100% PoW chain.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## EXCHANGE
+- none yet
+- OTC in #trading #pirate in Komodo Discord - https://komodoplatform.com/discord
 
-### Markdown
+## STATUS
+** Feature Complete **
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## HOW TO CONTRIBUTE
+- Securing network with Equihash Proof of Work (PoW).
+- Making a z transactions only mining Pool.
+- Listing PIRATE on your Centralised Exchange which means supporting z transactions for both withdraw/deposts.
+- Creating a product or services using PIRATE.
+- Testing, and reporting any bugs.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## FIND US:
+Chat: Komodo Platform Discord - https://komodoplatform.com/discord
+Forum/BTT: 
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## DOCUMENTATION
 
-**Bold** and _Italic_ and `Code` text
+#### Getting Started
+To get started with you only need Komodo Platform daemon installed on your machine. You can either download the wallet from Komodo Platform website and use the bundled "komodod" and "komodo-cli" in it, or you can also compile it on your machine.
+Installation instructions are available on Komodo Platform documentation website here: https://docs.komodoplatform.com/komodo/install-Komodo-manually.html
 
-[Link](url) and ![Image](src)
+#### Connect to PIRATE blockchain
+Command to run PIRATE blockchain and connect with the network:
+
+```shell
+./komodod -ac_name=PIRATE -ac_supply=0 -ac_reward=25600000000 -ac_halving=77777 -ac_private=1 -addnode=136.243.102.225
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### Mine PIRATE blockchain
+Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is the value of how many CPU threads you have on your system.
 
-### Jekyll Themes
+```shell
+./komodod -ac_name=PIRATE -ac_supply=0 -ac_reward=25600000000 -ac_halving=77777 -ac_private=1 -addnode=136.243.102.225 -gen -genproclimit=4
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PirateNetwork/pirate_black_website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Add seed node IPs
+Add seed nodes IP for better network connectivity. Example starting assetchain with 2 seed node IP
 
-### Support or Contact
+```shell
+./komodod -ac_name=PIRATE -ac_supply=0 -ac_reward=25600000000 -ac_halving=77777 -ac_private=1 -addnode=136.243.102.225 -addnode=78.47.205.239
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### Wallet comands
+
+```shell
+# Get wallet and blockchain info
+./komodo-cli -ac_name=PIRATE getinfo
+
+
+# Get wallet information
+./komodo-cli -ac_name=PIRATE getwalletinfo
+
+
+# Get mining information
+./komodo-cli -ac_name=PIRATE getmininginfo
+
+
+# Generate a new Z/Private address
+./komodo-cli -ac_name=PIRATE z_getnewaddress
+
+
+# To backup the private key of a z address
+./komodo-cli -ac_name=PIRATE z_exportkey "zaddr"
+
+
+# To send mined coins to a z address
+./komodo-cli -ac_name=PIRATE ???  "fromaddress" "tozaddress" ( fee ) ( limit )
+
+# Example 1:
+./komodo-cli -ac_name=PIRATE z_shieldcoinbase "RHYDbB9ZtoqSaTvJqkCNd7EH9eLnvULSnr" "zcdYeSbZCnvcbKhUPMYWdMy9FVdgQ2y9fivhbWgCuPsbFJ5VycayAZwrgkC8dbyVZd1einoNjKBa8hs Xy71B3aMNVpinvsa"
+
+# Example 2 Combines all PIRATE in different t-addresses to 1 z-address:
+./komodo-cli -ac_name=PIRATE z_shieldcoinbase "*" "zcdYeSbZCnvcbKhUPMYWdMy9FVdgQ2y9fivhbWgCuPsbFJ5VycayAZwrgkC8dbyVZd1einoNjKBa8hs Xy71B3aMNVpinvsa"
+
+
+# To send a transaction from your z address to another z address
+./komodo-cli -ac_name=PIRATE z_sendmany "fromaddress" [{"address":... ,"amount":...},...] ( minconf ) ( fee )
+
+# Example:
+komodo-cli -ac_name=PIRATE z_sendmany "zcdYeSbZCnvcbKhUPMYWdMy9FVdgQ2y9fivhbWgCuPsbFJ5VycayAZwrgkC8dbyVZd1einoNjKBa8hs Xy71B3aMNVpinvsa" '[{"address": "zcVHHtp5vTFDASaMoWXGYnPYq7n6xqwtYDFmN4F9UX4T88MscMJY9wQgyAMWpM4ttNXDyQHcFDGgegs 3CBDQ9KNWvUXaaUA" ,"amount": 5.9999}]'
+```
+
+## RESOURCES
+
+#### Website:
+http://pirate.black
+
+#### Explorer(s)
+http://pirate.explorer.dexstats.info
+
+#### Richlist (regenerated each 60 minutes)
+https://dexstats.info/richlist.php?asset=PIRATE
