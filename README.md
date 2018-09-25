@@ -1,17 +1,24 @@
 ## INTRO
 PIRATE is the best of Zcash combined with the best of Monero. It's a forced Shielded-transactions (z-transactions) only blockchain, meant for completely anonymous transactions. PIRATE is mined into a transparent address, but can only go into a shielded address from there.
-PIRATE is an independent blockchain built using Komodo Platform technology which is privacy transactions only blockchain. PIRATE is feature complete for what it does, there is no need for any more PIRATE core improvements.
+PIRATE is an independent blockchain built using Komodo Platform technology which is privacy transactions only blockchain. PIRATE is feature complete for its goal: complete anonymity.
+
+## UPDATE 24/09/2018:
+
+PIRATE is now secured using dPoW, by only allowing the 64 Komodo Notary Nodes to do the t-transactions needed to secure the PIRATE blockchain.
+Update of komodod is required! See below.
+
+## PIRATE PROPERTIES
 
 - Komodo Assetchain
 - Independent blockchain
-- Privacy/Shielded/z tx only chain. No Transparent transactions possible on PIRATE chain.
+- Privacy/Shielded/z tx only chain. No transparent transactions possible on PIRATE chain.
+- Probably has the most shielded coins of all other coins, even more than Zcash
 - Block time aprox 60 seconds.
 - Block halving every 77777 blocks.
    - aprox every 54.01180556 days
 - Block reward of 1 satoshi will be reached in about 5.179214231 years.
 - Total supply of around 40 million. Exactly to be 39,821,823.99884100 by year 2023
 - CryptoConditions contracts not possible on this chain, as it's z tx only chain.
-- Can't notarize without special exemptions.
 - Equihash PoW algo blockchain.
 - Alternatively can use Verushash PoW, but has to be used for a 100% PoW chain.
 
@@ -48,8 +55,31 @@ Command to run PIRATE blockchain and connect with the network:
 ./komodod -ac_name=PIRATE -ac_supply=0 -ac_reward=25600000000 -ac_halving=77777 -ac_private=1 -addnode=136.243.102.225
 ```
 
+#### Update PIRATE
+Make sure to be on dev branch to update PIRATE:
+
+First stop current PIRATE, if running:
+
+```shell
+cd ~/komodo/src
+./komodo-cli -ac_name=PIRATE stop
+```
+
+Now update komodod:
+
+```shell
+cd komodo
+git checkout dev
+git pull
+./zcutil/build.sh -j2
+```
+
+When done, run the command above to start PIRATE again.
+
+
 #### Mine PIRATE blockchain
-Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is the value of how many CPU threads you have on your system.
+Use "-gen" and "-genproclimit=X" to enable mining. Replace X with the number of CPU threads you want to use for mining PIRATE.
+For mining pool links, see end of page.
 
 ```shell
 ./komodod -ac_name=PIRATE -ac_supply=0 -ac_reward=25600000000 -ac_halving=77777 -ac_private=1 -addnode=136.243.102.225 -gen -genproclimit=4
@@ -62,7 +92,7 @@ Add seed nodes IP for better network connectivity. Example starting assetchain w
 ./komodod -ac_name=PIRATE -ac_supply=0 -ac_reward=25600000000 -ac_halving=77777 -ac_private=1 -addnode=136.243.102.225 -addnode=78.47.205.239
 ```
 
-#### Wallet comands
+#### Wallet commands
 
 ```shell
 # Get wallet and blockchain info
@@ -86,14 +116,13 @@ Add seed nodes IP for better network connectivity. Example starting assetchain w
 
 
 # To send mined coins to a z address
-./komodo-cli -ac_name=PIRATE ???  "fromaddress" "tozaddress" ( fee ) ( limit )
+./komodo-cli -ac_name=PIRATE z_shieldcoinbase "fromaddress" "tozaddress" ( fee ) ( limit )
 
 # Example 1:
 ./komodo-cli -ac_name=PIRATE z_shieldcoinbase "RHYDbB9ZtoqSaTvJqkCNd7EH9eLnvULSnr" "zcdYeSbZCnvcbKhUPMYWdMy9FVdgQ2y9fivhbWgCuPsbFJ5VycayAZwrgkC8dbyVZd1einoNjKBa8hs Xy71B3aMNVpinvsa"
 
 # Example 2 Combines all PIRATE in different t-addresses to 1 z-address:
 ./komodo-cli -ac_name=PIRATE z_shieldcoinbase "*" "zcdYeSbZCnvcbKhUPMYWdMy9FVdgQ2y9fivhbWgCuPsbFJ5VycayAZwrgkC8dbyVZd1einoNjKBa8hs Xy71B3aMNVpinvsa"
-
 
 # To send a transaction from your z address to another z address
 ./komodo-cli -ac_name=PIRATE z_sendmany "fromaddress" [{"address":... ,"amount":...},...] ( minconf ) ( fee )
@@ -103,6 +132,9 @@ komodo-cli -ac_name=PIRATE z_sendmany "zcdYeSbZCnvcbKhUPMYWdMy9FVdgQ2y9fivhbWgCu
 ```
 
 ## RESOURCES
+
+#### Mining pool:
+https://pirate.komodostats.com/
 
 #### Website:
 http://pirate.black
