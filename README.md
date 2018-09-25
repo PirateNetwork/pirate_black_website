@@ -4,7 +4,9 @@ PIRATE is an independent blockchain built using Komodo Platform technology which
 
 ## UPDATE 24/09/2018:
 
-PIRATE is now secured using dPoW, by only allowing the 64 Komodo Notary Nodes to do the t-transactions needed to secure the PIRATE blockchain.
+- PIRATE is now secured using dPoW, by only allowing the 64 Komodo Notary Nodes to do the t-transactions needed to secure the PIRATE blockchain.
+- PIRATE's halving has been quintupled: instead of every 77777 blocks, PIRATE now halves every 388885 blocks.
+
 Update of komodod is required! See below.
 
 ## PIRATE PROPERTIES
@@ -14,12 +16,13 @@ Update of komodod is required! See below.
 - Privacy/Shielded/z tx only chain. No transparent transactions possible on PIRATE chain.
 - Probably has the most shielded coins of all other coins, even more than Zcash
 - Block time aprox 60 seconds.
-- Block halving every 77777 blocks.
-   - aprox every 54.01180556 days
-- Block reward of 1 satoshi will be reached in about 5.179214231 years.
-- Total supply of around 40 million. Exactly to be 39,821,823.99884100 by year 2023
-- CryptoConditions contracts not possible on this chain, as it's z tx only chain.
-- Equihash PoW algo blockchain.
+- Block reward halves:
+   - every 388885 blocks
+   - every 270 days
+- Block reward of 1 satoshi will be reached in about 25 years.
+- Total supply of around 200 million PIRATE
+- CryptoConditions contracts not possible on this chain, as it is a z-tx only chain.
+- Mining algorithm: Equihash PoW
 - Alternatively can use Verushash PoW, but has to be used for a 100% PoW chain.
 
 ## EXCHANGE
