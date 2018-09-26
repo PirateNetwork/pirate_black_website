@@ -137,13 +137,13 @@ komodo-cli -ac_name=PIRATE z_sendmany "zcdYeSbZCnvcbKhUPMYWdMy9FVdgQ2y9fivhbWgCu
 ## RESOURCES
 
 #### Mining pool:
-https://pirate.komodostats.com/
+[https://pirate.komodostats.com/](https://pirate.komodostats.com/)
 
 #### Website:
-https://pirate.black
+[https://pirate.black](https://pirate.black)
 
 #### Explorer(s)
-http://pirate.explorer.dexstats.info
+[http://pirate.explorer.dexstats.info](http://pirate.explorer.dexstats.info)
 
 #### Richlist (regenerated each 60 minutes)
-https://dexstats.info/richlist.php?asset=PIRATE
+[https://dexstats.info/richlist.php?asset=PIRATE](https://dexstats.info/richlist.php?asset=PIRATE)
