@@ -172,6 +172,9 @@ The Tor support request has been shared with Agama Wallet developers. Let's hope
 
 ## RESOURCES
 
+### PIRATE Wallet (Beta version of Agama):
+[https://github.com/KomodoPlatform/Agama/releases/tag/multios-0.2.42c](https://github.com/KomodoPlatform/Agama/releases/tag/multios-0.2.42c)
+
 ### Mining pools:
  - **Pool 1 (1% mining fee):** [https://piratepool.io/](https://piratepool.io/)
  - **Pool 2 (0% mining fee):** [https://pirate.komodopool.xyz/](https://pirate.komodopool.xyz/)
