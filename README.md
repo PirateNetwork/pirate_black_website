@@ -5,7 +5,7 @@ PIRATE is an independent blockchain built using Komodo Platform technology which
 ## UPDATE 24/09/2018:
 
 - PIRATE is now secured using dPoW, by only allowing the 64 Komodo Notary Nodes to do the t-transactions needed to secure the PIRATE blockchain.
-- PIRATE's halving has been quintupled: instead of every 77777 blocks, PIRATE now halves every 388885 blocks.
+- PIRATE's halving has been quintupled: instead of every 77777 blocks, PIRATE now halves every 388885 blocks (chain start parameter remains the same).
 
 Update of komodod is required! See below.
 
