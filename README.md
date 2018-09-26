@@ -1,4 +1,7 @@
+PIRATE - The most anonymous coin of the world
+
 ## INTRO
+
 PIRATE is the best of Zcash combined with the best of Monero. It's a forced Shielded-transactions (z-transactions) only blockchain, meant for completely anonymous transactions. PIRATE is mined into a transparent address, but can only go into a shielded address from there.
 PIRATE is an independent blockchain built using Komodo Platform technology which is privacy transactions only blockchain. PIRATE is feature complete for its goal: complete anonymity.
 
