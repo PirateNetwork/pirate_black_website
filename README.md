@@ -99,11 +99,11 @@ Add seed nodes IP for better network connectivity. Example starting assetchain w
 #### Wallet commands
 
 ```shell
-# Get wallet and blockchain info
+# Get (transparent) wallet and blockchain info
 ./komodo-cli -ac_name=PIRATE getinfo
 
 
-# Get wallet information
+# Get (transparent) wallet information
 ./komodo-cli -ac_name=PIRATE getwalletinfo
 
 
@@ -118,6 +118,8 @@ Add seed nodes IP for better network connectivity. Example starting assetchain w
 # To backup the private key of a z address
 ./komodo-cli -ac_name=PIRATE z_exportkey "zaddr"
 
+# Get z balance (hidden funds don't show in transaprent commands)
+./komodo-cli -ac_name=PIRATE z_gettotalbalance
 
 # To send mined coins to a z address
 ./komodo-cli -ac_name=PIRATE z_shieldcoinbase "fromaddress" "tozaddress" ( fee ) ( limit )
