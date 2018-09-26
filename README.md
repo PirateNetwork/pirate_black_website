@@ -181,6 +181,9 @@ The Tor support request has been shared with Agama Wallet developers. Let's hope
 #### Website:
 [https://pirate.black](https://pirate.black)
 
+#### Developers (Github):
+[https://github.com/PirateNetwork/](https://github.com/PirateNetwork/)
+
 #### Explorer(s)
 [http://pirate.explorer.dexstats.info](http://pirate.explorer.dexstats.info)
 
