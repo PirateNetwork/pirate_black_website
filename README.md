@@ -24,6 +24,7 @@ Update of komodod is required! See below.
 - CryptoConditions contracts not possible on this chain, as it is a z-tx only chain.
 - Mining algorithm: Equihash PoW
 - Alternatively can use Verushash PoW, but has to be used for a 100% PoW chain.
+- TOR network supported.
 
 ## EXCHANGE
 - none yet
@@ -134,11 +135,48 @@ Add seed nodes IP for better network connectivity. Example starting assetchain w
 komodo-cli -ac_name=PIRATE z_sendmany "zcdYeSbZCnvcbKhUPMYWdMy9FVdgQ2y9fivhbWgCuPsbFJ5VycayAZwrgkC8dbyVZd1einoNjKBa8hsXy71B3aMNVpinvsa" '[{"address": "zcVHHtp5vTFDASaMoWXGYnPYq7n6xqwtYDFmN4F9UX4T88MscMJY9wQgyAMWpM4ttNXDyQHcFDGgegs3CBDQ9KNWvUXaaUA" ,"amount": 5.9999}]'
 ```
 
+## How to enable TOR settings for PIRATE:
+Just started Tor Browser as normal and used this command to start PIRATE blockchain:
+
+```shell
+./komodod \
+-ac_name=PIRATE \
+-ac_supply=0 \
+-ac_reward=25600000000 \
+-ac_halving=77777 \
+-ac_private=1 \
+-addnode=37.9.62.186 \
+-addnode=136.243.102.225 \
+-daemon \
+-proxy=127.0.0.1:9150   # Connect through TOR SOCKS5 proxy \
+-listen   # Accept connections from outside (default: 1 if no -proxy or -connect) \
+-listenonion   # Automatically create Tor hidden service (default: 1) \
+-maxconnections=25 \
+# -onlynet=onion  # Optional. If you only want to connect to peers via Tor network. If enabled no clearnet/internet IPv4/IPv6 addresses will connect as peers.
+```
+
+Tested this on MacOS. It must be exactly same on Linux as well.
+For Windows, just use the single line command, and remove the comment line after "#" too.
+
+Remove the command line parameter or change it accordingly.
+
+I just tested PIRATE over TOR in the most simplest and easiest setup way possible. Bit more advanced users can find this help link very useful which describes setting up "bitcoind" with Tor settings:
+[https://bitcoin.stackexchange.com/questions/70069/how-can-i-setup-bitcoin-to-be-anonymous-with-tor](https://bitcoin.stackexchange.com/questions/70069/how-can-i-setup-bitcoin-to-be-anonymous-with-tor)
+
+Linux admins and PIRATE miners can also help by setting up Tor PIRATE nodes, and share on this forum your .onion address and port for your PIRATE peer.
+Once we have good amount of .onion based PIRATE peers we can add them to "-addnode=" list, and can have more privacy added to PIRATE.
+
+The Tor support request has been shared with Agama Wallet developers. Let's hope we get Tor Support in Agama Wallet soon. Once done, setting up Tor for a coin or assetchain would be easier.
+
+
+
 ## RESOURCES
 
-#### Mining pool:
-<a href="{{ https://pirate.komodostats.com/ }}">{{ https://pirate.komodostats.com/ }}</a>
-[https://pirate.komodostats.com/]()
+### Mining pools:
+**Pool 1 (1% mining fee):** [https://pirate.komodostats.com/](https://pirate.komodostats.com/)
+**Pool 2 (0% mining fee):** [https://pirate.komodopool.xyz/](https://pirate.komodopool.xyz/)
+
+**Enhanced Getting Started by webworker01:** [https://pirate.komodostats.com/getting_started](https://pirate.komodostats.com/getting_started)
 
 #### Website:
 [https://pirate.black](https://pirate.black)
