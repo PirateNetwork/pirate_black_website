@@ -137,7 +137,8 @@ komodo-cli -ac_name=PIRATE z_sendmany "zcdYeSbZCnvcbKhUPMYWdMy9FVdgQ2y9fivhbWgCu
 ## RESOURCES
 
 #### Mining pool:
-[https://pirate.komodostats.com/](https://pirate.komodostats.com/)
+<a href="{{ https://pirate.komodostats.com/ }}">{{ https://pirate.komodostats.com/ }}</a>
+[https://pirate.komodostats.com/]()
 
 #### Website:
 [https://pirate.black](https://pirate.black)
