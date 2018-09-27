@@ -181,6 +181,7 @@ The Tor support request has been shared with Agama Wallet developers. Let's hope
 
 **Enhanced Getting Started by webworker01:** [https://piratepool.io/getting_started](https://piratepool.io/getting_started)
 
+
 #### Website:
 [https://pirate.black](https://pirate.black)
 
@@ -192,3 +193,7 @@ The Tor support request has been shared with Agama Wallet developers. Let's hope
 
 #### Richlist (regenerated each 60 minutes)
 [https://dexstats.info/richlist.php?asset=PIRATE](https://dexstats.info/richlist.php?asset=PIRATE)
+
+
+### Articles
+**PIRATES of Komodo Platform:** [https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df](https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df)
