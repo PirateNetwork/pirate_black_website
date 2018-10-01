@@ -194,6 +194,10 @@ The Tor support request has been shared with Agama Wallet developers. Let's hope
 #### Richlist (regenerated each 60 minutes)
 [https://dexstats.info/richlist.php?asset=PIRATE](https://dexstats.info/richlist.php?asset=PIRATE)
 
+#### Buy PIRATE
+- Visit #OTC Channel on Komodo Discord [https://discordapp.com/invite/53M27QD](https://discordapp.com/invite/53M27QD)
+- Buy via Onboarding Page [https://dexstats.info/onboarding.php](https://dexstats.info/onboarding.php)
+
 
 ### Articles
 - **PIRATES of Komodo Platform:** [https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df](https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df)
