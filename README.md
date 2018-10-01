@@ -196,6 +196,6 @@ The Tor support request has been shared with Agama Wallet developers. Let's hope
 
 
 ### Articles
-**PIRATES of Komodo Platform:** [https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df](https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df)
-**PIRATE is all about privacy & nothing about piracy:** [https://medium.com/@satindergrewal/pirate-is-all-about-privacy-nothing-about-piracy-2962eb5bb818](https://medium.com/@satindergrewal/pirate-is-all-about-privacy-nothing-about-piracy-2962eb5bb818)
+- **PIRATES of Komodo Platform:** [https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df](https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df)
+- **PIRATE is all about privacy & nothing about piracy:** [https://medium.com/@satindergrewal/pirate-is-all-about-privacy-nothing-about-piracy-2962eb5bb818](https://medium.com/@satindergrewal/pirate-is-all-about-privacy-nothing-about-piracy-2962eb5bb818)
 
