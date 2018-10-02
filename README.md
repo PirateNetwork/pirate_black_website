@@ -7,7 +7,7 @@ It's a forced Shielded-transactions (z-transactions) only blockchain, meant for 
 anonymous transactions. PIRATE is mined into a transparent address, but can only go into a shielded address from there.
 PIRATE is an independent blockchain built using the Komodo Platform assetchains. PIRATE is feature complete for its goal: complete anonymity.
 
-Follow PIRATE on [Twitter](https://twitter.com/piratechain) | Telegram | Reddit | Discord | BitcoinTalk
+[Twitter](https://twitter.com/piratechain) | [Telegram](https://t.me/piratechain/) | [Reddit](https://www.reddit.com/r/piratechain) | [Discord](https://komodoplatform.com/discord/) | [BitcoinTalk](https://bitcointalk.org/index.php?topic=4979549.0)
 
 ## UPDATE 02/10/2018
 
@@ -58,11 +58,6 @@ PIRATE is feature complete and ready to use!
 - Listing PIRATE on your Centralised Exchange which means supporting z transactions for both withdraw/deposts.
 - Create adoption by adding PIRATE to your service
 - Testing, and reporting any bugs.
-
-## FIND US:
-
-- Discord (Komodo Platform #pirate) - [komodoplatform.com/discord](https://komodoplatform.com/discord)  
-- BitcoinTalk: https://bitcointalk.org/index.php?topic=4979549.0
 
 ## DOCUMENTATION
 
