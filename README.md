@@ -2,8 +2,13 @@ PIRATE - The most anonymous coin of the world
 
 ## INTRO
 
-PIRATE is the best of Zcash combined with the best of Monero. It's a forced Shielded-transactions (z-transactions) only blockchain, meant for completely anonymous transactions. PIRATE is mined into a transparent address, but can only go into a shielded address from there.
-PIRATE is an independent blockchain built using Komodo Platform technology which is privacy transactions only blockchain. PIRATE is feature complete for its goal: complete anonymity.
+PIRATE is the best of Zcash combined with the best of Monero.
+It's a forced Shielded-transactions (z-transactions) only blockchain, meant for completely
+anonymous transactions. PIRATE is mined into a transparent address, but can only go into a 
+shielded address from there.
+PIRATE is an independent blockchain built using Komodo Platform technology which is 
+privacy transactions only blockchain. PIRATE is feature complete for its goal: 
+complete anonymity.
 
 ## UPDATE 24/09/2018:
 
@@ -61,11 +66,11 @@ Command to run PIRATE blockchain and connect with the network:
 ```shell
 ./komodod -ac_name=PIRATE -ac_supply=0 -ac_reward=25600000000 -ac_halving=77777 -ac_private=1 -addnode=136.243.102.225
 ```
-
+*NOTE: Although the `-ac_halving` above is still 77777, internally this number has been multiplied by 5.*
 #### Update PIRATE
 Make sure to be on dev branch to update PIRATE:
 
-First stop current PIRATE, if running:
+First, stop current PIRATE, if running:
 
 ```shell
 cd ~/komodo/src
