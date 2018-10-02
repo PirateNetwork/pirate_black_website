@@ -13,7 +13,7 @@ complete anonymity.
 ## UPDATE 24/09/2018:
 
 - PIRATE is now secured using dPoW, by only allowing the 64 Komodo Notary Nodes to do the t-transactions needed to secure the PIRATE blockchain.
-- PIRATE's halving has been quintupled: instead of every 77777 blocks, PIRATE now halves every 388885 blocks.
+- PIRATE's halving has been quintupled: instead of every 77777 blocks, PIRATE now halves every 388885 blocks (chain start parameter remains the same).
 
 Update of komodod is required! See below.
 
@@ -180,11 +180,15 @@ The Tor support request has been shared with Agama Wallet developers. Let's hope
 
 ## RESOURCES
 
+### PIRATE Wallet (Beta version of Agama):
+[https://github.com/KomodoPlatform/Agama/releases/tag/multios-0.2.42c](https://github.com/KomodoPlatform/Agama/releases/tag/multios-0.2.42c)
+
 ### Mining pools:
  - **Pool 1 (1% mining fee):** [https://piratepool.io/](https://piratepool.io/)
  - **Pool 2 (0% mining fee):** [https://pirate.komodopool.xyz/](https://pirate.komodopool.xyz/)
 
 **Enhanced Getting Started by webworker01:** [https://piratepool.io/getting_started](https://piratepool.io/getting_started)
+
 
 #### Website:
 [https://pirate.black](https://pirate.black)
@@ -197,3 +201,9 @@ The Tor support request has been shared with Agama Wallet developers. Let's hope
 
 #### Richlist (regenerated each 60 minutes)
 [https://dexstats.info/richlist.php?asset=PIRATE](https://dexstats.info/richlist.php?asset=PIRATE)
+
+
+### Articles
+- **PIRATES of Komodo Platform:** [https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df](https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df)
+- **PIRATE is all about privacy & nothing about piracy:** [https://medium.com/@satindergrewal/pirate-is-all-about-privacy-nothing-about-piracy-2962eb5bb818](https://medium.com/@satindergrewal/pirate-is-all-about-privacy-nothing-about-piracy-2962eb5bb818)
+
