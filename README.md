@@ -1,4 +1,4 @@
-# PIRATE - ARRRnonymous money
+[Discord](https://komodoplatform.com/discord/) | [Twitter](https://twitter.com/piratechain) | [Telegram](https://t.me/piratechain/) | [Reddit](https://www.reddit.com/r/piratechain) | [BitcoinTalk](https://bitcointalk.org/index.php?topic=4979549.0)
 
 ## INTRO
 
@@ -6,8 +6,6 @@ PIRATE is the best of Zcash combined with the best of Monero.
 It's a forced Shielded-transactions (z-transactions) only blockchain, meant for completely
 anonymous transactions. PIRATE is mined into a transparent address, but can only go into a shielded address from there.
 PIRATE is an independent blockchain built using the Komodo Platform assetchains. PIRATE is feature complete for its goal: complete anonymity.
-
-[Twitter](https://twitter.com/piratechain) | [Telegram](https://t.me/piratechain/) | [Reddit](https://www.reddit.com/r/piratechain) | [Discord](https://komodoplatform.com/discord/) | [BitcoinTalk](https://bitcointalk.org/index.php?topic=4979549.0)
 
 ## UPDATE 02/10/2018
 
