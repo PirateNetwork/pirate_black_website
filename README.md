@@ -29,6 +29,7 @@ Update of komodod is required! See below.
 ## EXCHANGE
 - none yet
 - OTC in #trading #pirate in Komodo Discord - https://komodoplatform.com/discord
+- Ticker symbol: ARRR
 
 ## STATUS
 ** Feature Complete **
