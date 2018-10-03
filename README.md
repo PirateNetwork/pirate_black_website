@@ -1,8 +1,23 @@
-## INTRO
-PIRATE is the best of Zcash combined with the best of Monero. It's a forced Shielded-transactions (z-transactions) only blockchain, meant for completely anonymous transactions. PIRATE is mined into a transparent address, but can only go into a shielded address from there.
-PIRATE is an independent blockchain built using Komodo Platform technology which is privacy transactions only blockchain. PIRATE is feature complete for its goal: complete anonymity.
+# PIRATE - ARRRnonymous money
 
-## UPDATE 24/09/2018:
+## INTRO
+
+PIRATE is the best of Zcash combined with the best of Monero.
+It's a forced Shielded-transactions (z-transactions) only blockchain, meant for completely
+anonymous transactions. PIRATE is mined into a transparent address, but can only go into a shielded address from there.
+PIRATE is an independent blockchain built using the Komodo Platform assetchains. PIRATE is feature complete for its goal: complete anonymity.
+
+[Twitter](https://twitter.com/piratechain) | [Telegram](https://t.me/piratechain/) | [Reddit](https://www.reddit.com/r/piratechain) | [Discord](https://komodoplatform.com/discord/) | [BitcoinTalk](https://bitcointalk.org/index.php?topic=4979549.0)
+
+## UPDATE 02/10/2018
+
+- Agama wallet now supports PIRATE. Download [here](https://komodoplatform.com/komodo-wallets/)
+- PIRATE giveaway [now active!](https://gleam.io/jNfG4/pirate-our-rigs-24-hours-raffle-of-mining-rig-time) (until 05/10/2018)
+- Vote for the official PIRATE logo! More info soon.
+- piratepool.io now sends 0.5% fee to PIRATE development fund
+- PIRATE's hashrate is 3 times **higher** than KMD!
+
+## UPDATE 24/09/2018
 
 - PIRATE is now secured using dPoW, by only allowing the 64 Komodo Notary Nodes to do the t-transactions needed to secure the PIRATE blockchain.
 - PIRATE's halving has been quintupled: instead of every 77777 blocks, PIRATE now halves every 388885 blocks (chain start parameter remains the same).
@@ -17,8 +32,8 @@ Update of komodod is required! See below.
 - Probably has the most shielded coins of all other coins, even more than Zcash
 - Block time aprox 60 seconds.
 - Block reward halves:
-   - every 388885 blocks
-   - every 270 days
+  - every 388885 blocks
+  - every 270 days
 - Block reward of 1 satoshi will be reached in about 25 years.
 - Total supply of around 200 million PIRATE
 - CryptoConditions contracts not possible on this chain, as it is a z-tx only chain.
@@ -27,30 +42,34 @@ Update of komodod is required! See below.
 - TOR network supported.
 
 ## EXCHANGE
-- none yet
-- OTC in #trading #pirate in Komodo Discord - https://komodoplatform.com/discord
+
+- OTC trading in Komodo Discord - [komodoplatform.com/discord](https://komodoplatform.com/discord)
+- [tortuga.exchange](https://tortuga.exchange) coming Q1 2019
 - Ticker symbol: ARRR
 
-## STATUS
-** Feature Complete **
+#### Buy PIRATE
+- Visit #OTC Channel on Komodo Discord [https://discordapp.com/invite/53M27QD](https://discordapp.com/invite/53M27QD)
+- Buy via Onboarding Page [https://dexstats.info/onboarding.php](https://dexstats.info/onboarding.php)
+
+## STATUS / ROADMAP
+
+PIRATE is feature complete and ready to use!
+
+- Q1 2019
+  - Centralized z-only KMD <-> PIRATE exchange Tortuga
 
 ## HOW TO CONTRIBUTE
-- Securing network with Equihash Proof of Work (PoW).
-- Making a z transactions only mining Pool.
+
 - Listing PIRATE on your Centralised Exchange which means supporting z transactions for both withdraw/deposts.
-- Creating a product or services using PIRATE.
+- Create adoption by adding PIRATE to your service
 - Testing, and reporting any bugs.
-
-
-## FIND US:
-Chat: Komodo Platform Discord - https://komodoplatform.com/discord
-Forum/BTT: 
-
 
 ## DOCUMENTATION
 
 #### Getting Started
-To get started with you only need Komodo Platform daemon installed on your machine. You can either download the wallet from Komodo Platform website and use the bundled "komodod" and "komodo-cli" in it, or you can also compile it on your machine.
+
+Agama now supports PIRATE! Download the latest Agama [here](https://komodoplatform.com/komodo-wallets/).  
+To get started with PIRATE, you only need Komodo Platform daemon installed on your machine. You can either download the wallet from Komodo Platform website and use the bundled "komodod" and "komodo-cli" in it, or you can also compile it on your machine.
 Installation instructions are available on Komodo Platform documentation website here: https://docs.komodoplatform.com/komodo/install-Komodo-manually.html
 
 #### Connect to PIRATE blockchain
@@ -60,10 +79,12 @@ Command to run PIRATE blockchain and connect with the network:
 ./komodod -ac_name=PIRATE -ac_supply=0 -ac_reward=25600000000 -ac_halving=77777 -ac_private=1 -addnode=136.243.102.225
 ```
 
-#### Update PIRATE
-Make sure to be on dev branch to update PIRATE:
+*NOTE: Although the `-ac_halving` above is still 77777, internally this number has been multiplied by 5.*
 
-First stop current PIRATE, if running:
+#### Update PIRATE
+Make sure to be on komodo dev branch to update PIRATE:
+
+First, stop current PIRATE if running:
 
 ```shell
 cd ~/komodo/src
@@ -81,8 +102,8 @@ git pull
 
 When done, run the command above to start PIRATE again.
 
-
 #### Mine PIRATE blockchain
+
 Use "-gen" and "-genproclimit=X" to enable mining. Replace X with the number of CPU threads you want to use for mining PIRATE.
 For mining pool links, see end of page.
 
@@ -91,6 +112,7 @@ For mining pool links, see end of page.
 ```
 
 #### Add seed node IPs
+
 Add seed nodes IP for better network connectivity. Example starting assetchain with 2 seed node IP
 
 ```shell
@@ -138,8 +160,9 @@ Add seed nodes IP for better network connectivity. Example starting assetchain w
 komodo-cli -ac_name=PIRATE z_sendmany "zcdYeSbZCnvcbKhUPMYWdMy9FVdgQ2y9fivhbWgCuPsbFJ5VycayAZwrgkC8dbyVZd1einoNjKBa8hsXy71B3aMNVpinvsa" '[{"address": "zcVHHtp5vTFDASaMoWXGYnPYq7n6xqwtYDFmN4F9UX4T88MscMJY9wQgyAMWpM4ttNXDyQHcFDGgegs3CBDQ9KNWvUXaaUA" ,"amount": 5.9999}]'
 ```
 
-## How to enable TOR settings for PIRATE:
-Just started Tor Browser as normal and used this command to start PIRATE blockchain:
+#### How to enable TOR settings for PIRATE
+
+Just start Tor Browser as usual and use this command to start PIRATE blockchain:
 
 ```shell
 ./komodod \
@@ -158,8 +181,13 @@ Just started Tor Browser as normal and used this command to start PIRATE blockch
 # -onlynet=onion  # Optional. If you only want to connect to peers via Tor network. If enabled no clearnet/internet IPv4/IPv6 addresses will connect as peers.
 ```
 
-Tested this on MacOS. It must be exactly same on Linux as well.
-For Windows, just use the single line command, and remove the comment line after "#" too.
+Tested successfully on MacOS + Linux.
+On Windows make sure to remove all backslashes and comments to make the above into one single command:
+
+```shell
+komodod.exe -ac_name=PIRATE -ac_supply=0 -ac_reward=25600000000 -ac_halving=77777 -ac_private=1 -addnode=37.9.62.186 -addnode=136.243.102.225 -daemon -proxy=127.0.0.1:9150
+-listen -listenonion -maxconnections=25
+```
 
 Remove the command line parameter or change it accordingly.
 
@@ -171,39 +199,34 @@ Once we have good amount of .onion based PIRATE peers we can add them to "-addno
 
 The Tor support request has been shared with Agama Wallet developers. Let's hope we get Tor Support in Agama Wallet soon. Once done, setting up Tor for a coin or assetchain would be easier.
 
-
-
 ## RESOURCES
 
-### PIRATE Wallet (Beta version of Agama):
-[https://github.com/KomodoPlatform/Agama/releases/tag/multios-0.2.42c](https://github.com/KomodoPlatform/Agama/releases/tag/multios-0.2.42c)
+### PIRATE Wallet (Beta version of Agama)
 
+Download the latest Agama [here](https://komodoplatform.com/komodo-wallets/).
+=======
 ### Mining pools:
  - **Pool 1 (1% mining fee):** [https://piratepool.io/](https://piratepool.io/)
  - **Pool 2 (0% mining fee):** [https://pirate.komodopool.xyz/](https://pirate.komodopool.xyz/)
  - **Pool 3 (1% mining fee):** [https://piratechain.org/](https://piratechain.org/)
 
-**Enhanced Getting Started by webworker01:** [https://piratepool.io/getting_started](https://piratepool.io/getting_started)
+Getting Started guide by webworker01: [piratepool.io/getting_started](https://piratepool.io/getting_started)
 
+#### Developers (PIRATE Github)
 
-#### Website:
-[https://pirate.black](https://pirate.black)
-
-#### Developers (Github):
 [https://github.com/PirateNetwork/](https://github.com/PirateNetwork/)
 
-#### Explorer(s)
+#### Explorer
+
 [http://pirate.explorer.dexstats.info](http://pirate.explorer.dexstats.info)
 
 #### Richlist (regenerated each 60 minutes)
+
 [https://dexstats.info/richlist.php?asset=PIRATE](https://dexstats.info/richlist.php?asset=PIRATE)
-
-#### Buy PIRATE
-- Visit #OTC Channel on Komodo Discord [https://discordapp.com/invite/53M27QD](https://discordapp.com/invite/53M27QD)
-- Buy via Onboarding Page [https://dexstats.info/onboarding.php](https://dexstats.info/onboarding.php)
-
+=======
 
 ### Articles
+
 - **PIRATES of Komodo Platform:** [https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df](https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df)
 - **PIRATE is all about privacy & nothing about piracy:** [https://medium.com/@satindergrewal/pirate-is-all-about-privacy-nothing-about-piracy-2962eb5bb818](https://medium.com/@satindergrewal/pirate-is-all-about-privacy-nothing-about-piracy-2962eb5bb818)
 
