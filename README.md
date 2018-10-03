@@ -45,6 +45,11 @@ Update of komodod is required! See below.
 
 - OTC trading in Komodo Discord - [komodoplatform.com/discord](https://komodoplatform.com/discord)
 - [tortuga.exchange](https://tortuga.exchange) coming Q1 2019
+- Ticker symbol: ARRR
+
+#### Buy PIRATE
+- Visit #OTC Channel on Komodo Discord [https://discordapp.com/invite/53M27QD](https://discordapp.com/invite/53M27QD)
+- Buy via Onboarding Page [https://dexstats.info/onboarding.php](https://dexstats.info/onboarding.php)
 
 ## STATUS / ROADMAP
 
@@ -117,11 +122,11 @@ Add seed nodes IP for better network connectivity. Example starting assetchain w
 #### Wallet commands
 
 ```shell
-# Get wallet and blockchain info
+# Get (transparent) wallet and blockchain info
 ./komodo-cli -ac_name=PIRATE getinfo
 
 
-# Get wallet information
+# Get (transparent) wallet information
 ./komodo-cli -ac_name=PIRATE getwalletinfo
 
 
@@ -136,6 +141,8 @@ Add seed nodes IP for better network connectivity. Example starting assetchain w
 # To backup the private key of a z address
 ./komodo-cli -ac_name=PIRATE z_exportkey "zaddr"
 
+# Get z balance (hidden funds don't show in transaprent commands)
+./komodo-cli -ac_name=PIRATE z_gettotalbalance
 
 # To send mined coins to a z address
 ./komodo-cli -ac_name=PIRATE z_shieldcoinbase "fromaddress" "tozaddress" ( fee ) ( limit )
@@ -197,11 +204,11 @@ The Tor support request has been shared with Agama Wallet developers. Let's hope
 ### PIRATE Wallet (Beta version of Agama)
 
 Download the latest Agama [here](https://komodoplatform.com/komodo-wallets/).
-
-#### Mining pools
-
-- Pool 1 (1% mining fee): [piratepool.io](https://piratepool.io/)
-- Pool 2 (0% mining fee): [pirate.komodopool.xyz](https://pirate.komodopool.xyz/)
+=======
+### Mining pools:
+ - **Pool 1 (1% mining fee):** [https://piratepool.io/](https://piratepool.io/)
+ - **Pool 2 (0% mining fee):** [https://pirate.komodopool.xyz/](https://pirate.komodopool.xyz/)
+ - **Pool 3 (1% mining fee):** [https://piratechain.org/](https://piratechain.org/)
 
 Getting Started guide by webworker01: [piratepool.io/getting_started](https://piratepool.io/getting_started)
 
@@ -216,6 +223,7 @@ Getting Started guide by webworker01: [piratepool.io/getting_started](https://pi
 #### Richlist (regenerated each 60 minutes)
 
 [https://dexstats.info/richlist.php?asset=PIRATE](https://dexstats.info/richlist.php?asset=PIRATE)
+=======
 
 ### Articles
 
