@@ -66,7 +66,7 @@ PIRATE is feature complete and ready to use!
 
 #### Getting Started
 
-Agama now supports PIRATE! Download the latest Agama [here](https://komodoplatform.com/komodo-wallets/).  
+Agama now supports PIRATE! Download the latest Agama [here](https://github.com/KomodoPlatform/Agama/releases/tag/multios-0.2.42c).  
 To get started with PIRATE, you only need Komodo Platform daemon installed on your machine. You can either download the wallet from Komodo Platform website and use the bundled "komodod" and "komodo-cli" in it, or you can also compile it on your machine.
 Installation instructions are available on Komodo Platform documentation website here: https://docs.komodoplatform.com/komodo/install-Komodo-manually.html
 
