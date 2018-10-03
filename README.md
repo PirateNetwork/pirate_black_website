@@ -9,7 +9,7 @@ PIRATE is an independent blockchain built using the Komodo Platform assetchains.
 
 ## UPDATE 02/10/2018
 
-- Agama wallet now supports PIRATE. Download [here](https://komodoplatform.com/komodo-wallets/)
+- Agama wallet now supports PIRATE. Download [here](https://github.com/KomodoPlatform/Agama/releases/tag/multios-0.2.42c)
 - PIRATE giveaway [now active!](https://gleam.io/jNfG4/pirate-our-rigs-24-hours-raffle-of-mining-rig-time) (until 05/10/2018)
 - Vote for the official PIRATE logo! More info soon.
 - piratepool.io now sends 0.5% fee to PIRATE development fund
