@@ -141,7 +141,7 @@ Add seed nodes IP for better network connectivity. Example starting assetchain w
 # To backup the private key of a z address
 ./komodo-cli -ac_name=PIRATE z_exportkey "zaddr"
 
-# Get z balance (hidden funds don't show in transaprent commands)
+# Get z balance (hidden funds don't show in transparent commands)
 ./komodo-cli -ac_name=PIRATE z_gettotalbalance
 
 # To send mined coins to a z address
@@ -199,12 +199,6 @@ Once we have good amount of .onion based PIRATE peers we can add them to "-addno
 
 The Tor support request has been shared with Agama Wallet developers. Let's hope we get Tor Support in Agama Wallet soon. Once done, setting up Tor for a coin or assetchain would be easier.
 
-## RESOURCES
-
-### PIRATE Wallet (Beta version of Agama)
-
-Download the latest Agama [here](https://komodoplatform.com/komodo-wallets/).
-=======
 ### Mining pools:
  - **Pool 1 (1% mining fee):** [https://piratepool.io/](https://piratepool.io/)
  - **Pool 2 (0% mining fee):** [https://pirate.komodopool.xyz/](https://pirate.komodopool.xyz/)
@@ -223,7 +217,6 @@ Getting Started guide by webworker01: [piratepool.io/getting_started](https://pi
 #### Richlist (regenerated each 60 minutes)
 
 [https://dexstats.info/richlist.php?asset=PIRATE](https://dexstats.info/richlist.php?asset=PIRATE)
-=======
 
 ### Articles
 
