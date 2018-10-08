@@ -204,6 +204,9 @@ The Tor support request has been shared with Agama Wallet developers. Let's hope
 
 Getting Started guide by webworker01: [piratepool.io/getting_started](https://piratepool.io/getting_started)
 
+### Mining Calculator:
+[https://www.crypto-coinz.net/coin-info/?203-Pirate-ARRR-Equihash-calculator/](https://www.crypto-coinz.net/coin-info/?203-Pirate-ARRR-Equihash-calculator/)
+
 #### Developers (PIRATE Github)
 
 [https://github.com/PirateNetwork/](https://github.com/PirateNetwork/)
@@ -220,4 +223,6 @@ Getting Started guide by webworker01: [piratepool.io/getting_started](https://pi
 
 - **PIRATES of Komodo Platform:** [https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df](https://medium.com/@satindergrewal/pirates-of-komodo-platform-cdc991b424df)
 - **PIRATE is all about privacy & nothing about piracy:** [https://medium.com/@satindergrewal/pirate-is-all-about-privacy-nothing-about-piracy-2962eb5bb818](https://medium.com/@satindergrewal/pirate-is-all-about-privacy-nothing-about-piracy-2962eb5bb818)
+ - **Post in Spanish "PIRATE, the most anonymous cryptocurrency in the world":** [https://steemit.com/spanish/@thewalker/pirate-la-criptomoneda-mas-anonima-del-mundo](https://steemit.com/spanish/@thewalker/pirate-la-criptomoneda-mas-anonima-del-mundo)
+ - **PIRATEchain — Why we need anonymity:** [https://medium.com/@seko1900/piratechain-why-we-need-anonymity-4aa7a7d854ef](https://medium.com/@seko1900/piratechain-why-we-need-anonymity-4aa7a7d854ef)
 
