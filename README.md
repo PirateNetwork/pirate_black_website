@@ -201,7 +201,7 @@ The Tor support request has been shared with Agama Wallet developers. Let's hope
  - **Pool 1 (1% mining fee):** [https://piratepool.io/](https://piratepool.io/)
  - **Pool 2 (0% mining fee):** [https://arrr.pool-mining.xyz/](https://arrr.pool-mining.xyz/)
  - **Pool 3 (1% mining fee):** [https://piratechain.org/](https://piratechain.org/)
- - **Pool 4 (0% mining fee):** [https://theminingpoolstratum.selfip.com/pirate/public/](https://theminingpool.online/)
+ - **Pool 4 (0% mining fee):** [https://theminingpool.online/](https://theminingpoolstratum.selfip.com/pirate/public/)
  
 Getting Started guide by webworker01: [piratepool.io/getting_started](https://piratepool.io/getting_started)
 
